@@ -9,5 +9,5 @@ cloud:
       access-key: <DUMMY_ACCESS_KEY>
       secret-key: <DUMMY_SECRET_ACCESS_KEY>
     queue:
-      uri: <QUEUE_URI>
+      uri: <QUEUE_URI> # can be fetched using command 'aws sqs list-queues --endpoint-url <localstack-endpoint-url>'
       name: <QUEUE_NAME>
