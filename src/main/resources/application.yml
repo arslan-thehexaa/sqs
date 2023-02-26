@@ -1,0 +1,13 @@
+cloud:
+  aws:
+    stack:
+      auto: false
+    endpoint-url: <LOCAL_STACK_URL>
+    region:
+      static: <REGION_NAME>
+    credentials:
+      access-key: <DUMMY_ACCESS_KEY>
+      secret-key: <DUMMY_SECRET_ACCESS_KEY>
+    queue:
+      uri: <QUEUE_URI>
+      name: <QUEUE_NAME>
